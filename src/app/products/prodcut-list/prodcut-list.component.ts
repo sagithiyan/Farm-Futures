@@ -7,6 +7,7 @@ import{Product} from '../product.model';
 })
 export class ProdcutListComponent implements OnInit {
   products:Product[]=[
+    new Product('test','test','https://images.rove.me/w_740,q_85/zxkbx4bnkhchecltygkx/goa-guava.jpg'),
     new Product('test','test','https://images.rove.me/w_740,q_85/zxkbx4bnkhchecltygkx/goa-guava.jpg')
   ];
   constructor() { }
